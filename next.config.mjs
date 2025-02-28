@@ -20,7 +20,9 @@ const nextConfig = {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
+    appDir: true,
   },
+  output: 'standalone',
 }
 
 mergeConfig(nextConfig, userConfig)
