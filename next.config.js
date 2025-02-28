@@ -6,10 +6,6 @@ const nextConfig = {
   },
   // Enable static exports
   trailingSlash: true,
-  // Disable server components since we're doing static export
-  experimental: {
-    appDir: true,
-  }
 }
 
 module.exports = nextConfig
