@@ -130,12 +130,7 @@ export default function ComingSoonPage() {
               <SidebarButton icon={Archive} label="Archive" />
               <SidebarButton icon={ArchiveX} label="Spam" />
               <SidebarButton icon={Trash2} label="Trash" />
-             <div
-                className="flex items-start gap-4 p-4 hover:bg-[#F7931A] accent/50 cursor-pointer transition-colors opacity-50"
-              >
-                {" "}
-                <SidebarButton icon={File} label="Documents" badge="Read Now" />{" "}
-                </div>
+          
             </nav>
           </div>
           <div className="p-4 mt-auto bg-background dark:bg-gray-900">
