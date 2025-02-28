@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preinstall": "npx npm@9.6.7 install --legacy-peer-deps",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "install": "npm install --legacy-peer-deps"
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -61,11 +61,11 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/node": "22.13.5",
-    "@types/react": "19.0.10",
-    "@types/react-dom": "^18",
+    "@types/node": "^22",
+"@types/react": "^18.3.18",
+  "@types/react-dom": "^18.3.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.17",
-    "typescript": "5.7.3"
+    "typescript": "^5"
   }
 }
