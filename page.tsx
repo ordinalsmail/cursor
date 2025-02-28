@@ -134,7 +134,9 @@ export default function ComingSoonPage() {
          <Link
                   href="https://docs.ordinalsmail.com"
                   className="flex items-start gap-4 p-4 hover:bg-[#F7931A] accent/50 cursor-pointer transition-colors opacity-50"
-                >  <SidebarButton icon={File} label="Documents" badge="Read Now" />  </link>
+                >  
+                  <SidebarButton icon={File} label="Documents" badge="Read Now" />  
+                </Link>
           </nav>
           </div>
           <div className="p-4 mt-auto bg-background dark:bg-gray-900">
